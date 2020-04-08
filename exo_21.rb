@@ -3,6 +3,6 @@ floors = gets.chomp.to_i
 n = 1
 
 while n <= floors
-  puts ("# " * n).rjust(floors*5)
+  puts ("# " * n).rjust(floors*4)
   n += 1
 end
